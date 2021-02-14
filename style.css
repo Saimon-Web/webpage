@@ -1,0 +1,252 @@
+.full-website{
+    border: 2px solid green;
+    height: 2500px;
+    width: 1150px;
+    margin: 0 auto;
+}
+.first-room{
+    background: rgb(223, 91, 113);
+    height: 60px;
+    width: auto;
+    padding: 10px 7px;
+
+}
+.logo{
+    width: 40%;
+    float: left;
+    padding: 0px 27px;
+    margin-top: -12px;
+}
+.banner{
+    width: 50%;
+    float: right;
+    margin-top: 16px;
+    text-align: center;
+    font-size: 30px;
+    font-weight:bold;
+}
+.second-room{
+    background: rgb(245, 148, 138);
+    height: 48px;
+    margin-top: -16px;
+    
+}
+
+
+.menu ul{
+          height:50px;
+          text-align: center;
+         
+}
+.menu ul li{
+    display: inline-block;
+    padding: 15px 0px;
+    border-right:2px solid rgb(155, 146, 138);
+    margin: 0 auto;
+    margin-left: -4px;
+}
+.menu ul li:first-child{
+    border-left: 2px solid rgb(155, 146, 138);
+    
+}
+.menu ul li a{
+    text-decoration: none;
+    padding: 10px 15px;
+
+}
+.menu ul li a:hover{
+    background: cornflowerblue;
+    padding: 16px 15px;
+
+}
+.third-room{
+    background: darkgray;
+    height:auto;
+    margin-top: 0px;
+    text-align: center;
+}
+.fourth-room{
+    background: rgb(67, 173, 175);
+    height: 1400px;
+    width: 100%;
+    margin-top: -20px;
+}
+.content{
+    float: left;
+    width: 60%;
+    background: rgb(45, 73, 73);
+    height: auto;
+    padding: 10px 15px;
+    
+}
+.content-element{
+    background: rgb(54, 45, 41);
+    padding: 0px 16px;
+    height:440px;
+}
+.content-element p{
+    font-size: 15px;
+    color: white;
+    line-height: 25px;
+    text-align: justify;
+    padding: 10px 0px;
+}
+.content-element img{
+    width: 40%;
+    float: right;
+    border: 3px solid rgb(94, 224, 19);
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.readmore{
+    background: rgb(164, 197, 15);
+    width:100px;
+    border: 3px solid wheat;
+    border-radius: 15px;
+    margin-top: -5px;
+}
+.readmore a{
+    color: rgb(15, 12, 11);
+    text-decoration: none;
+    padding: 5px;
+}
+.right-sidebar{
+    background: rgb(124, 62, 62);
+    float: right;
+    width: 36%;
+    padding-top: 20px;
+    height: 1380px;
+
+}
+.sidbar-element{
+    
+}
+.sidebar-element h2{
+    color: white;
+    background-color: rgb(24, 36, 6);
+     margin-top: 20px;
+    width:300px;
+    text-align: center;
+    margin:0 auto;
+}
+.sidebar-element ul{
+    background: rgb(189, 81, 81) ;
+    height: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+
+    
+}
+.sidebar-element ul li{
+    padding: 10px 0px;
+
+
+
+}
+.sidebar-element ul li a{
+    text-decoration: none;
+    color: white;
+
+
+}
+.sidebar-element ul li a:hover{
+    text-decoration: underline;
+    background-color: rgb(43, 28, 0);
+    opacity: 80%;
+
+}
+.fifth-room{
+    clear: right;
+    background: rgb(27, 146, 134);
+    height: auto;
+    margin-top: -20px;
+    padding: 20px 15px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.box h2{
+    color: white;
+    border-bottom: 3px dotted rgb(124, 224, 66);
+    width:60%
+}
+.box ul{
+    padding: 5px 20px;
+
+}
+.box ul li{
+    padding:5px 10px
+
+}
+.box ul li a{
+    color: yellow;
+    font-size: 20px;
+
+}
+.box ul li a:hover{
+    text-decoration: none;
+
+}
+.sixth-room{
+    background: rgb(172, 127, 127);
+    height: auto;
+    margin-top: -22px;
+    text-align: center;
+}
+/*about*/
+.about{
+    background: wheat;
+    margin: 50px 50px;
+    padding: 20px 15px;
+    border: 3px dotted green;
+}
+/*contact*/
+.contact{
+    background: rgb(129, 144, 235);
+   padding:20px 25px;
+   
+   width: 70%;
+   margin: 0 auto;
+   margin-bottom: 20px;
+}
+.contact-Us{
+
+}
+.form{
+    width: 35%;
+    margin: 0 auto;
+    border: 5px double rgb(34, 245, 34);
+    padding: 25px 30px;
+    padding-right: 35px;
+    border-radius: 1px 80px 1px;
+}
+.contact h2{
+    color: white;
+    background: rgb(99, 5, 99);
+    margin: 0 auto;
+    width: 20%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+input{
+    width: 100%;
+    background: rgb(156, 236, 236);
+    padding: 5px;
+    border: 2px solid rgb(245, 163, 163);
+    
+}
+textarea{
+    width: 100%;
+    background: rgb(156, 236, 236);
+    padding: 5px;
+    border: 2px solid rgb(245, 163, 163);
+
+}
+.button{
+    font-size: 15px;
+}
+.button:hover{
+    background: darkgray;
+    color: white;
+}
